@@ -5,6 +5,9 @@ spider_settings:
   merge_result:
     enable: false # 暂不合并其他 JSON，单源爬取足够
 
+# 在 conf.yaml 中任意位置添加（建议放在 spider_settings 下方）
+specific_RSS: []  # 空数组表示不单独指定 RSS，使用友链自带的 RSS
+
 # 邮箱订阅功能（可选，无需则保持 disable）
 rss_subscribe:
   enable: false # 关闭则无需配置 SMTP
