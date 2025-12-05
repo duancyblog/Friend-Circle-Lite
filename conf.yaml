@@ -13,3 +13,7 @@ rss_subscribe:
   enable: false # 关闭则无需配置 SMTP
 smtp:
   enable: false # 无需邮件推送则关闭
+
+# 邮件推送配置（即使不用也需保留，避免报错）
+email_push:
+  enable: false  # 关闭邮件推送功能
