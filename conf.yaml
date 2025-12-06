@@ -20,6 +20,6 @@ email_push:
 
 # Friend-Circle-Lite 的 conf.yaml
 cors:
-  allow_origins: ["https://blog.allen2030.com"]  # 你的博客实际域名
+  allow_origins: ["*"]  # 你的博客实际域名
   allow_methods: ["GET"]
   allow_headers: ["*"]
