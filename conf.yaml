@@ -1,6 +1,6 @@
 spider_settings:
   enable: true
-  json_url: "https://blog.allen2030.com/friend.json" # 替换为步骤 1 中部署的 JSON 地址
+  json_url: "https://blog.allen2030.com/friends-fc.json" # 替换为步骤 1 中部署的 JSON 地址
   article_count: 5 # 每个友链保留 5 篇最新文章
   merge_result:
     enable: false # 暂不合并其他 JSON，单源爬取足够
